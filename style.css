@@ -1,0 +1,19 @@
+body {
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-family: Arial, sans-serif;
+}
+.container {
+ text-align: center;
+}
+.buttons {
+ margin-top: 20px;
+}
+button {
+ padding: 15px 30px;
+ font-size: 18px;
+ margin: 10px;
+ cursor: pointer;
+}
