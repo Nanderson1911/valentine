@@ -13,6 +13,14 @@ yesButton.addEventListener("click", () => {
 <div class="celebration">
 <h1>It’s a date 💖</h1>
 <p>Happy Valentine’s Day 💐</p>
+<iframe
+       style="margin-top:20px;border-radius:12px"
+       src="https://open.spotify.com/embed/track/3fB3uH7uF3U2nmdR0IY6xg"
+       width="100%"
+       height="80"
+       frameBorder="0"
+       allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+</iframe>
 </div>
  `;
  startHearts();
@@ -24,8 +32,6 @@ function startHearts() {
    heart.innerText = "❤️";
    heart.style.left = Math.random() * 100 + "vw";
    document.body.appendChild(heart);
-   setTimeout(() => {
-     heart.remove();
-   }, 4000);
+   setTimeout(() => heart.remove(), 4000);
  }, 300);
 }
