@@ -1,119 +1,61 @@
 body {
-
   height: 100vh;
-
   margin: 0;
-
   display: flex;
-
   justify-content: center;
-
   align-items: center;
-
   font-family: Arial, sans-serif;
-
   overflow: hidden;
-
 }
-
 .container {
-
   text-align: center;
-
   padding: 20px;
-
 }
-
 h1 {
-
   font-size: 28px;
-
 }
-
 .buttons {
-
   margin-top: 20px;
-
 }
-
 button {
-
   padding: 15px 30px;
-
   font-size: 18px;
-
   margin: 10px;
-
   cursor: pointer;
-
 }
-
 /* Celebration screen */
-
 .celebration h1 {
-
   font-size: 36px;
-
 }
-
 .celebration p {
-
   font-size: 20px;
-
 }
-
 /* Floating hearts */
-
 .heart {
-
   position: fixed;
-
   bottom: 0;
-
   font-size: 22px;
-
   animation: floatUp 4s linear forwards;
-
+  transition: color 2s ease;
 }
-
 @keyframes floatUp {
-
   0% {
-
     transform: translateY(0);
-
     opacity: 1;
-
   }
-
   100% {
-
     transform: translateY(-100vh);
-
     opacity: 0;
-
   }
-
 }
-
 /* Larger screens */
-
 @media (min-width: 768px) {
-
   h1 {
-
     font-size: 42px;
-
   }
-
   .celebration h1 {
-
     font-size: 56px;
-
   }
-
 }
- 
-
 }
  
